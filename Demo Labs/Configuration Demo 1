@@ -1,1 +1,21 @@
 
+--- Command Summary ---
+
+
+| Command                     | Description                                                                 |
+|-----------------------------|-----------------------------------------------------------------------------|
+| clock rate *clock-rate*     | Sets the clock rate for a Data Communications Equipment (DCE) interface     |
+| configure terminal          | Enters global configuration mode from privileged EXEC mode                  |
+| enable                      | Enters privileged exec mode                                                 |
+| end                         | Ends and exits configuration mode                                           |
+| exit                        | Exits one level in the menu structure                                       |
+| hostname *host-name*        | Sets the device name                                                        |
+| interface *type number*     | Changes from global configuration mode to interface configuration mode      |
+| ip address *ip subnet-mask* | Assigns an IP address to an interface                                       |
+| network *network-address*   | Activates the specified routing protocol on the specified network           |
+| ping *ip-address*           | Sends an ICMP echo request to the specified address                         |
+| router eigrp *as-number*    | Enters router configuration mode for EIGRP                                  |
+| show ip interface brief     | Displays a brief summary of interface status and configuration              |
+| show ip route               | Displays the IP routing table                                               |
+| show running-config         | Displays the active configuration file                                      |
+| shutdown / no shutdown      | Disables or enables an interface                                            |
